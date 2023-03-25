@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\JAT.PunchedCardGenerator\JAT.PunchedCardGenerator.csproj" />
+    <ProjectReference Include="..\..\JAT.PunchedCardsGenerator\JAT.PunchedCardsGenerator.csproj" />
   </ItemGroup>
 
 </Project>
