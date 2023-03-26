@@ -10,9 +10,9 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/src/apps/JAT.PunchedCardGenerator.ConsoleApp/bin/Debug/net6.0/JAT.PunchedCardGenerator.ConsoleApp.dll",
+            "program": "${workspaceFolder}/src/apps/JAT.PunchedCardsGenerator.ConsoleApp/bin/Debug/net6.0/JAT.PunchedCardsGenerator.ConsoleApp.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/src/apps/JAT.PunchedCardGenerator.ConsoleApp",
+            "cwd": "${workspaceFolder}/src/apps/JAT.PunchedCardsGenerator.ConsoleApp",
             "stopAtEntry": false,
             "console": "internalConsole"
         },

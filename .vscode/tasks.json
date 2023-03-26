@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/src/apps/JAT.PunchedCardGenerator.ConsoleApp/JAT.PunchedCardGenerator.ConsoleApp.csproj",
+                "${workspaceFolder}/src/apps/JAT.PunchedCardsGenerator.ConsoleApp/JAT.PunchedCardsGenerator.ConsoleApp.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/src/apps/JAT.PunchedCardGenerator.ConsoleApp/JAT.PunchedCardGenerator.ConsoleApp.csproj",
+                "${workspaceFolder}/src/apps/JAT.PunchedCardsGenerator.ConsoleApp/JAT.PunchedCardsGenerator.ConsoleApp.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/src/apps/JAT.PunchedCardGenerator.ConsoleApp/JAT.PunchedCardGenerator.ConsoleApp.csproj"
+                "${workspaceFolder}/src/apps/JAT.PunchedCardsGenerator.ConsoleApp/JAT.PunchedCardsGenerator.ConsoleApp.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
