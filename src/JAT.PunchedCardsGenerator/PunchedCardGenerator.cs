@@ -13,35 +13,23 @@ public class PunchedCardGenerator
         {
             for (int characterColumnIndex = 1; characterColumnIndex <= (characterColumnsAmount); characterColumnIndex++)
             {
+                char nextCharacter = ' ';
                 if (characterColumnIndex < 3 && characterRowIndex < 3)
                 {
-                    writer.Write('.');
+                    nextCharacter = '.';
                 }
                 else
                 {
                     if (characterColumnIndex % 2 >= 1)
                     {
-                        if (characterRowIndex % 2 >= 1)
-                        {
-                            writer.Write('+');
-                        }
-                        else
-                        {
-                            writer.Write('|');
-                        }
+                        nextCharacter = characterRowIndex % 2 >= 1 ? '+' : '|';
                     }
                     else
                     {
-                        if (characterRowIndex == 1 || characterRowIndex % 2 >= 1)
-                        {
-                            writer.Write('-');
-                        }
-                        else
-                        {
-                            writer.Write('.');
-                        }
+                        nextCharacter = characterRowIndex == 1 || characterRowIndex % 2 >= 1 ? '-' : '.';
                     }
                 }
+                writer.Write(nextCharacter);
             }
 
             if (characterRowIndex < characterRowsAmount)
